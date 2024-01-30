@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.menu-bar{
+    width: 100%;
+    height: 90px;
+    background-color: azure;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    margin: 1px;
+    padding: 5px;
+    cursor: pointer;
+}
+.menu{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    background-color: azure;
+    
+    
+}
+.menu ul{
+    margin-top: 1%;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: auto;
+}
+.box{
+    width: 100%;
+    height: 900px;
+    background-color: antiquewhite;
+    /* padding: 10px; */
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+}
+.box1{
+    width: 40%;
+    height: 70%;
+    font-size: 30px;
+    /* border: 2px solid black;  */
+    justify-content: space-around;
+    float: left;
+    padding: 10px;
+    margin-left:  100px;
+    margin-top: 20px;
+    line-height: 2.5;
+    
+
+
+
+}
+.box1 i{
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.box2{
+    width: 40%;
+    height: 70%;
+    border: 2px solid black; 
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left;
+
+}
+.box2 input{
+    width: 50%;
+    height: 60px;
+    white-space: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    white-space: 10px;
+    display: block;
+}
+.box2 p{
+    margin-top: 50px;
+    margin-left: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: azure;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    font-size: 20px;<p>
+    If you want contect you can 
+</p>
+    color: black;
+    font-weight: bold;
+}
+

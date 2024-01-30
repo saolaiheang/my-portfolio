@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.menu-bar{
+    width: 100%;
+    height: 90px;
+    background-color: azure;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    margin: 1px;
+    padding: 5px;
+    cursor: pointer;
+}
+.menu{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    background-color: azure;
+    
+    
+}
+.menu ul{
+    margin-top: 1%;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: auto;
+}
+.box{
+    width: 100%;
+    height: 800px;
+    background-color: antiquewhite;
+    display: flex;
+    padding: 30px;
+    
+}
+.box1{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-right: 30px;
+   
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.box2{
+    width: 58%;
+    height: 100%;
+    /* background-color: bisque; */
+
+}
+.box2 h6{
+    width: 400px;
+    font-size: 40px;
+    padding: 20px;
+    /* background-color: brown; */
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.box2-1{
+    width: 100%;
+    height: 50%;
+    font-size: 30px;
+    line-height: 2;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.box2-1-1{
+    width: 80%;
+    height: 80px;
+    /* background-color: aqua; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.box2-1-1 a{
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 40px; */
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: azure;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
