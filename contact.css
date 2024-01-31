@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: 80%;
+    width: 100%;
     height: auto;
     overflow: hidden;
     margin: auto;

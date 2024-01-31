@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: 80%;
+    width: 100%;
     height: auto;
     overflow: hidden;
     margin: auto;
@@ -13,7 +13,7 @@
 .menu-bar{
     width: 100%;
     height: 90px;
-    background-color: azure;
+    background-color:azure;
 }
 .logo{
     width: 20%;
@@ -30,7 +30,7 @@
 }
 .menu{
     width: 80%;
-    height: auto;
+    height: 90px;
     overflow: hidden;
     background-color: azure;
     
@@ -61,28 +61,72 @@
 }
 .box{
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: antiquewhite;
+    display: flex;
+   
 }
 .box1{
-    width: 40%;
+    width: 50%;
     height: auto;
     overflow: hidden;
-    border: 1px solid black;
-    background-color: aquamarine;
+    /* border: 1px solid black; */
+    /* background-color: aquamarine; */
+    /* margin-left: 50px; */
+
+  
     
 }
-.image {
-    height: 20px;
+.image img{
+    width: 50%;
+    height: 300px;
     object-fit: cover;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 40px;
 }
-
+.text{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    /* background-color: bisque; */
+    margin-top: 90px;
+    margin-left: 10%;
+}
+.text h1{
+    width: 60%;
+    padding: 10px;
+    background-color: pink;
+    text-align: center;
+    
+}
+.text p{
+    font-size: 25px;
+    line-height: 3;
+    /* margin-top: 100px; */
+}
+.box2{
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    border-left: 1px solid black;
+    margin-top: 10px;
+    /* background-color: aquamarine; */
+    margin-left: 50px;
+}
+.text a{
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    color: blue;
+    line-height: 2;
+}
 
 
 .footer{
     width: 100%;
     height: 90px;
-    background-color: azure;
+    background-color:white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
