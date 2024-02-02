@@ -61,38 +61,92 @@
 }
 .box{
     width: 100%;
-    height: 1000px;
+    height: auto;
+    overflow: hidden;
     background-color: antiquewhite;
 }
 .box1{
     width: 100%;
-    height: 1000px;
-    background-color: aquamarine;
+    height: 800px;
+    /* background-color: aquamarine; */
     margin-left: 20px;
     display: flex;
     
     
-}
-.box1 img{
-    width: 50%;
-    height: 90%;
-    /* background-color: black; */
-     margin: 10px;
     
 }
-.box1-1{
+.image{
     width: 50%;
-    height: 50%;
-    margin: 10px;
-    background-color: azure;
+    height: auto;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+
+.box1-1{
+    width: 40%;
+    height: 500px;
+    margin: 60px;
+    /* background-color: azure; */
+    border: 1px solid black;
     font-size: 20px;
     line-height: 3;
     text-align: center;
+    position: relative;
+
 }
+.photo{
+    width: 40%;
+    height: 40%;
+    /* background-color: brown; */
+    position: absolute;
+    bottom: -100px;
+    right: -50px;
+    
+    
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+  box-shadow: 5px 10px black;
+    
+}
+.box2{
+    /* width: 100%; */
+    /* height: 1000px; */
+    /* background-color: aquamarine; */
+    /* margin-left: 20px; */
+    /* display: flex; */
+}
+.tool{
+    width: 70%;
+    height: 400px;
+    /* background-color: azure; */
+    margin: auto;
+    text-align: center;
+    
+
+}
+.tool img{
+    margin: 50px;
+    width:90px;
+    height: 100px;
+    
+    gap: 10px;
+}
+
+
+
 .footer{
     width: 100%;
     height: 90px;
-    background-color: azure;
+    background-color:white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -103,4 +157,5 @@
     color: black;
     font-weight: bold;
 }
+
 
