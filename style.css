@@ -26,6 +26,8 @@
     object-fit: cover;
     margin: 1px;
     padding: 4px;
+    justify-content: center;
+    /* margin-top: 9%; */
     cursor: pointer;
 }
 .menu{
@@ -61,7 +63,7 @@
 } */
 .box{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color: antiquewhite;
     display: flex;
     padding: 10px;
@@ -98,10 +100,10 @@
     color: white;
 }
 .box2{
-    width: 50%;
+    width: 40%;
     height: 100%;
-    background-color: rgb(255, 179, 179);
-    /* margin-right: 10px; */
+    /* background-color: rgb(255, 179, 179); */
+    margin-left: 100px;
 }
 .box2-1{
     width: 60%;
@@ -116,15 +118,16 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 .box2-2{
     width: 60%;
-    height: 100px;
+    height: 150px;
     /* background-color: black; */
     margin: auto;
-    color: white;
+    color:blue;
     text-align: center;
+    line-height: 2;
     
     /* margin-top: 10px; */
     
